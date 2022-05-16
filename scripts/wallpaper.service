@@ -1,0 +1,6 @@
+[Unit]
+Description=Update Wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/lorenzo/.local/bin/update_wallpaper.sh
